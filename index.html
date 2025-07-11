@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Lauzt1m // Yukineqw</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <canvas id="stars"></canvas>
+    
+    <div class="content">
+        <img src="{{ url_for('static', filename='images/avatar.png') }}" alt="Аватарка" class="avatar">
+		
+		<div class="username">Lauzt1m // Yukineqw</div>
+		
+        <div class="links">
+            <a href="https://vk.com/yukineqw" target="_blank">VKontakte</a>
+            <a href="https://t.me/yukineqwrep" target="_blank">Telegram</a>
+            <a href="https://www.twitch.tv/lauzt1m" target="_blank">Twitch</a>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/stars.js') }}"></script>
+</body>
+</html>
