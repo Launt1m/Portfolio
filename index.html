@@ -2,29 +2,35 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lauzt1m // Yukineqw</title>
 
-    <link rel="icon" href-"favicon.png" type="image/png" />
-	    
+    <!-- Иконка сайта -->
+    <link rel="icon" href="favicon.png" type="image/png" />
+
+    <!-- Стили -->
     <link rel="stylesheet" href="static/css/style.css" />
 </head>
 <body>
+    <!-- Холст для звёзд -->
     <canvas id="stars"></canvas>
-    
+
+    <!-- Контент -->
     <div class="content">
         <img src="static/images/avatar.png" alt="Аватарка" class="avatar" />
-		
-		<div class="username">Lauzt1m // Yukineqw</div>
-		
+
+        <div class="username">Lauzt1m // Yukineqw</div>
+
         <div class="links">
             <a href="https://vk.com/yukineqw" target="_blank">VKontakte</a>
             <a href="https://t.me/yukineqwrep" target="_blank">Telegram</a>
             <a href="https://www.twitch.tv/lauzt1m" target="_blank">Twitch</a>
-	    <a href="https://github.com/Launt1m" target="_blank">GitHub</a>
+            <a href="https://github.com/Launt1m" target="_blank">GitHub</a>
             <a href="https://steamcommunity.com/id/Launt1m/" target="_blank">Steam</a>
         </div>
     </div>
 
-    <script src="{{ url_for('static', filename='js/stars.js') }}"></script>
+    <!-- Скрипт звёзд -->
+    <script src="static/js/stars.js"></script>
 </body>
 </html>
